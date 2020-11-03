@@ -14,7 +14,7 @@
   @tailwind utilities;
 </style>
 
-<main class="flex items-center py-1 justify-center h-screen bg-gray-100">
+<main class="flex items-center py-1 justify-center md:h-screen bg-gray-100">
   <div class="flex flex-col md:flex-row container mx-auto text-gray-800">
     <div
       class="w-full md:w-2/5 border-b-4 border-orange-600 md:border-r-4 md:border-b-0 px-5 md:px-0">
@@ -65,9 +65,10 @@
         </div>
       </div>
     </div>
-    <div class="w-full md:w-3/5 flex flex-col justify-center items-center">
+    <div
+      class="w-full md:w-3/5 flex flex-col justify-center items-center py-3 md:py-0">
       <p class="w-full px-3 text-xl">
-        Desarrollor frontend en constante formación.
+        Desarrollor Frontend en constante formación.
       </p>
       <ul class="w-full px-10 py-5">
         <li class="flex items-center py-1">
